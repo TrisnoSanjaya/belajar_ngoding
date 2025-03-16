@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML</title>
+</head>
+<body>
+    <h1>Pertemuan Ke-1</h1>
+        <h2>Perkenalan</h2>
+             <h3><i>Apa itu HTML?</i></h3>   
+            <p>HTML adalah bahasa komputer yang digunakan untuk membuat kerangka atau struktur untuk Web pages (halaman website) di internet. HTML adalah singkatan dari Hyper Text Markup Language.</p>
+
+            <h3><i>Bagaimana HTML Bekerja di Web Browser?</i></h3>
+            <p style="color: red;">Web browser seperti Chrome, Firefox, Edge, Safari, atau Opera akan membaca dokumen HTML. Dokumen HTML yang berisi tag-tag HTML akan memberitahu browser bagaimana cara menampilkan sebuah konten. Selain HTML, ada juga bahasa CSS (Cascading Style Sheet) dan JavaScript yang akan kita pelajari untuk membuat sebuah tampilan website yang interaktif.</p>
+            <p>Secara fungsi, ketiga bahasa tersebut bisa dianalogikan seperti ini:</p>
+
+            <img src="https://static-assets.skilvul.com/lesson/intro-to-html/html-css-js.gif" alt="Fungsi HTML, CSS, JavaScript ">
+
+            <p>Fungsi HTML adalah sebagai<b> 'kerangka'</b>, yang memberi struktur pada website.</p>
+            <p>Fungsi CSS sebagai <b> 'baju'</b> , yang memberi warna dan layout pada website.</p>
+            <p>Fungsi JavaScript, sebagai element yang membuat website menjadi <b>interaktif.</b></p>
+
+    <h1>Pertemuan Ke-2</h1>
+        <h2>HTML Tag</h2>
+        <p>HTML terdiri dari komponen yang disebut HTML Tag.</p>
+        <img src="https://static-assets.skilvul.com/lesson/intro-to-html/html-tag.jpg" alt="HTML Content">
+        <p>Pada umumnya, ada 2 tipe HTML Tag:</p>
+        <ul>
+            <li>Opening Tag (tag pembuka)</li>
+            <li>Closing Tag (tag penutup)</li>
+        </ul>
+        Berikut adalah format penulisan Opening Tag dan Closing Tag:
+        <img src="https://static-assets.skilvul.com/lesson/intro-to-html/struktur-tag.jpg" alt="Opening Tag & Closing Tag">
+
+        <h2>Struktur Dokumen HTML</h2>
+        <p>Secara garis besar, struktur dokumen HTML dapat digambarkan sebagai berikut:</p>
+        <img src="https://static-assets.skilvul.com/lesson/intro-to-html/html-structure.png" alt="Struktur HTML">
+        <p>Dokumen HTML memiliki 3 tag utama, yaitu < html >,< head >, dan < body >.</p>
+
+    <h1>Pertemuan Ke-3</h1>
+        <h2>HTML Element</h2>
+        <p>HTML Element merupakan sebuah komponen dalam halaman web, bisa berupa paragraf, judul, atau gambar. </p>
+        <p>Struktur dari sebuah HTML element dapat digambarkan seperti ini:</p>
+        <img width="70%" src="https://static-assets.skilvul.com/lesson/intro-to-html/html-element.jpg" alt="HTML Element">
+        <p>Pada umumnya, HTML Element terdiri dari:</p>
+        <ul>
+            <li><b>Opening Tag</b> (tag pembuka) - contohnya adalah < p >. </li>
+            <li><b>Closing Tag</b> (tag penutup) - contohnya adalah < /p >.
+            </li>
+            <li><b>Attribute -</b> contohnya adalah <i>style</i> yang memiliki <strong>Value</strong> "color=red". HTML Attribute akan kita pelajari di topik selanjutnya.</li>
+            <li><b>Content</b> (konten) yang ingin ditampilkan di browser - contohnya adalah <i>My first paragraph.</i>
+            </li>
+        </ul>
+        <p>Ada dua jenis HTML Element, yaitu:</p>
+        <ol>
+            <li><b>HTML Element</b> yang memiliki <b>Opening Tag</b> (tag pembuka) dan Closing Tag (tag penutup) - contohnya adalah < p > dan < /p >.</li>
+            <li><b>Empty HTML Element:</b> memiliki <b>Self-closing Tag,</b> yang hanya memiliki Opening Tag (tag pembuka) dengan garis miring sebelum kurung tutup - contohnya adalah < br /> atau < img / >.</li>
+        </ol>
+    <h1>Pertemuan Ke-4</h1>
+        <h2>HTML Attribute</h2>
+        <p>Masih ingat dengan konsep HTML element dan HTML tag? Opening Tag (tag pembuka) menandakan awal dari sebuah element. Di dalam Opening Tag dapat berisi attribute, yang berfungsi untuk memberikan informasi tambahan kepada sebuah element.</p>
+        Contoh penggunaan attribute:
+        <p style="color: blue;">< img width="80%" src="https://bit.ly/3laVBck" / ></p>
+        <p>Pada kode di atas, tag <img> memiliki dua attribute: <br> <ul>
+            <li>width yang berfungsi untuk menentukan lebar dari element gambar, dan diberikan value (nilai) lebar sebesar 80%</li>
+            <li>src yang berfungsi untuk menentukan sumber gambar, dan diberikan value (nilai) untuk diarahkan ke tautan https://bit.ly/3laVBck</li> 
+            </ul>
+            Contoh lainnya:
+            <a href="https://www.youtube.com/channel/UCCSa1vEJnEHO-4O0MX1tUQQ">Channel Youtube Saya</a> <br>
+            <p style="color: blue;">< a href="https://www.youtube.com/channel/UCCSa1vEJnEHO-4O0MX1tUQQ">Refresh< /a ></p>
+            <ul>
+                <li>Tag  <i>< a ></a></i> menandakan sebuah element tautan (hyperlink).
+                </li>
+                <li>
+                    Tautan tersebut bisa diarahkan ke halaman web lain atau bahkan ke suatu bagian pada halaman web yang sama.
+                </li>
+                <li>
+                    Attribute href kita gunakan untuk memberi tahu tujuan dari tautan ini.
+                </li>
+                <li>Dalam kode di atas, attribute href kita isi dengan alamat youtube milik saya sendiri https://www.youtube.com/channel/UCCSa1vEJnEHO-4O0MX1tUQQ sehingga ketika kita klik element tautan tersebut, kita akan diarahkan ke Channel youtube saya.
+                </li>
+            </ul>
+        </p>
+    <h1>Pertemuan Ke-5</h1>
+        <h2>HTML Comment</h2>
+        <p> <b>Comment Dalam Pemrograman</b> <br>
+            Tidak hanya dalam HTML, dalam dunia pemrograman, comment adalah catatan kecil yang bisa kita tambahkan ke dalam kode sumber (source code) tanpa mengubah fungsi dari program yang kita buat. <br>Maksudnya, keberadaan comment dalam source code akan diabaikan dan tidak dibaca oleh komputer saat programnya dijalankan. Dalam kasus HTML, browser akan mengabaikan semua comment yang kita tulis.
+        </p>
+        <p>Untuk membuat Comment di VSCode cukup tekan tombol <b>ctrl+/</b></p>
+    <h1>Pertemuan Ke-6</h1>
+        <h2>Heading</h2>
+        <p>
+            Coba perhatikan buku pelajaran di sekolah kita, terdapat daftar isi bukan? Daftar isi tersebut berisi daftar beberapa bab dan sub-bab yang terdapat pada buku tersebut. Secara langsung, daftar isi akan memperlihatkan ke kita bagaimana struktur isi buku tersebut. <br> Begitupun heading, tag ini akan menampilkan struktur website kita. Bisa diumpamakan seperti tag < h1 > sebagai judul bab pada sebuah buku, kemudian < h2 > sebagai judul sub-bab.
+        </p>
+        <p>
+            Tag heading hanya memiliki 6 tingkatan. Penulisannya seperti di bawah ini:
+            <p style="color: blue;">
+                < h1 >Heading Satu< /h1 > <br>
+                < h2 >Heading Dua< /h2 > <br>
+                < h3 >Heading Tiga< /h3 > <br>
+                < h4 >Heading Empat< /h4 > <br>
+                < h5 >Heading Lima< /h5 > <br>
+                < h6 >Heading Enam< /h6 >    <br>
+            </p>
+            Hasilnya di browser akan seperti ini:
+            <h1>Heading Satu</h1>
+            <h2>Heading Dua</h2>
+            <h3>Heading Tiga</h3>
+            <h4>Heading Empat</h4>
+            <h5>Heading Lima</h5>
+            <h6>Heading Enam</h6>
+        </p>
+    <h1>Pertemuan Ke-7</h1>
+        <h2>paragraf</h2>
+        <p>Untuk membuat paragraf pada halaman website, maka dibutuhkan tag < p >.
+            <p>
+                Penulisannya seperti ini: <br>
+                <p>< p > <br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate tempora
+                    provident quaerat officia maxime totam, repudiandae libero ducimus hic esse
+                    ipsam quam cum voluptates enim laudantium fugit quis eum suscipit. <br>
+                  < /p > </p>
+                  Di browser, kode di atas akan terlihat seperti ini:
+                  <p>
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate tempora
+                    provident quaerat officia maxime totam, repudiandae libero ducimus hic esse
+                    ipsam quam cum voluptates enim laudantium fugit quis eum suscipit."
+                  </p>
+            </p>
+        </p>
+    <h1>Pertemuan Ke-8</h1>
+        <h2>Link/Anchor</h2>
+        <p>
+            Terkadang, kita membutuhkan halaman web yang kita buat bisa mengakses halaman web lain. Maka dari itu, kita butuh membuat link.
+            <p>
+                Untuk membuat link pada halaman web, maka diperlukan tag < a >. Tag < a > memiliki attribute href yang berguna untuk menyimpan link website yang dituju.
+            </p>
+            <p>
+                Penggunannya seperti ini:
+                <p style="color: blue;">
+                     < a href="https://google.com">Google< /a >
+                </p>
+                Hasilnya : <a href="https://google.com">Google</a>
+            </p>
+        </p>
+    <h1>Pertemuan Ke-9</h1>
+        <h2>Span</h2>
+        <p>
+            Tag < span > digunakan untuk mengelompokkan tulisan dalam satu baris. Pada umumnya sering digunakan untuk menambahkan CSS pada suatu tulisan pada satu baris, tapi tidak menutup kemungkinan digunakan untuk hal lainnya.
+            <p>
+                Contoh penggunaan:
+            </p>
+            <p style="color: blue;">
+                < p > Kucingku bermata < span style="color:blue"> biru< /span >< /p >
+            </p>
+            <p>Contoh di atas akan muncul di browser seperti ini:</p>
+            
+            Kucingku bermata <span style="color: brown;">Coklat</span>
+        </p>
+    <h1>Pertemuan Ke-10</h1>
+        <h2>Huruf Tebal</h2>
+        <p>
+            Tag < b > atau < strong > digunakan untuk membuat tulisan menjadi tebal.
+            <p>
+                Contoh penggunaan:
+            </p>
+            <p style="color: blue;">
+                < p > <br>
+                    Nama saya < b >Sarah< /b >. Saya berumur < strong >22 tahun.< /strong > <br>
+                  < /p >
+            </p>
+            <p>
+                Contoh di atas akan terlihat di browser seperti ini:
+            </p>
+            <p>
+                Nama saya <b>Sarah</b>. Saya berumur <strong>22 tahun.</strong>
+            </p>
+              
+        </p>
+
+        <h1>Pertemuan Ke-11</h1>
+            <h2>Huruf Miring</h2>
+            <p>
+                Untuk membuat huruf bercetak miring, maka dibutuhkan tag < i > atau < em >.
+                <p>
+                    Contoh penggunaan:
+                </p>
+                <p style="color: blue;">
+                    < p > <br>
+                    Nama latin dari tanaman padi adalah <i>Oryza</i> < em >sativa L.< /em >
+                    <br>
+                    < /p >
+                </p>
+                <p>
+                    Contoh di atas akan terlihat di browser seperti ini:
+                </p>
+                <p>
+                    Nama latin dari tanaman padi adalah <i>Oryza</i> <em>sativa L.</em>
+                </p>    
+            </p>
+        <h1>Pertemuan Ke-12</h1>
+            <h2>List</h2>
+            <p>
+                Ada dua tipe list di HTML, yaitu:
+                <ul>
+                    <li> <b>Unordered</b> list dengan menggunakan tag < ul ></li>
+                    <li><b>Ordered</b> list dengan menggunakan tag < ol ></li>
+                </ul>
+            </p>
+            <p>Masing-masing list baik < ul > atau < ol > memiliki element < li > untuk mendefinisikan nilai-nilai dari list tersebut.</p>
+            Contoh:
+            <p style="color: blue;">
+                <!-- Unordered List -->
+            < ul > <br>
+            < li >Kopi < /li > <br>
+            < li >Teh< /li > <br>
+            < li >Susu< /li > <br>
+            < /ul > <br>
+            <br>
+            <!-- Ordered List -->
+            < ol > <br>
+                < li >Kucing< /li > <br>
+                < li >Anjing< /li > <br>
+                < li >Ikan< /li > <br>
+            < /ol > <br>
+            </p>
+            <p>Contoh di atas akan terlihat di browser seperti ini:</p>
+            <!-- Unordered List -->
+            <ul>
+                <li>Kopi</li>
+                <li>Teh</li>
+                <li>Susu</li>
+            </ul>
+            
+            <!-- Ordered List -->
+            <ol>
+                <li>Kucing</li>
+                <li>Anjing</li>
+                <li>Ikan</li>
+            </ol>
+        <h1>Pertemuan Ke-13</h1>
+            <h2>Gambar</h2>
+             <p>
+                Untuk menampilkan gambar pada halaman sebuah website, maka kita membutuhkan tag < img >. 
+             </p>
+             Contoh penggunaannya:
+             <p style="color: blue;"> < img src="https://bit.ly/3j6eb3B" alt="Cat" / ></p>
+             <p>Hasil dari kode di atas pada browser akan terlihat seperti ini:</p>
+             <img src="https://bit.ly/3j6eb3B" alt="Cat" />
+             <p>
+                Attribute alt memberikan informasi alternatif atas gambar jika pengguna tidak bisa melihat gambar di website kita. Gambar yang tidak muncul di browser bisa disebabkan karena koneksi internet yang buruk atau terdapat error pada attribute src. Attribute alt juga berguna bagi pengguna screen reader untuk mengetahui informasi tentang gambar tersebut.
+             </p>
+             <p>
+                Attribute alt harus mendeskripsikan tentang gambar yang bersangkutan jika gambar tersebut berisi informasi. Kemudian, alt juga sebaiknya menjelaskan alamat link jika gambar berada di dalam element < a >. Terakhir, gunakan alt dengan string kosong (contohnya < img alt="" / >) apabila gambar hanya berfungsi sebagai dekorasi pada website.
+             </p>
+
+        <h1>Pertemuan Ke-14</h1>
+             <h2>Video</h2>
+             <b>Video Element</b>
+             <p>
+                Sejak HTML5, sudah ada cara langsung untuk bisa menambahkan video pada halaman web kita; yaitu dengan menggunakan tag < video >. Format video yang didukung antara lain: mp4, ogg, dan webM.
+             </p>
+             <p>
+                Syntaxnya cukup simpel, seperti di bawah ini:
+             </p>
+             <p style="color: blue;">
+                < video width="320" height="240" src="link-ke-videonya" >< /video >
+             </p>
+             <p>
+                atau dengan mengapit element < source > di antara element < video > seperti ini
+             </p>
+             <p style="color: blue;">
+                < video width="320" height="240" > <br>
+                    < source src="link-ke-video-nya" type="video/tipe-videonya"/ > <br>
+                  < /video > <br>
+             </p>
+             <p>Contoh penggunaannya: </p>
+             <p style="color: blue;">
+                < video width="320" height="240" > <br>
+                    < ource src="https://bit.ly/3j6rPni" / > <br>
+                  < /video > <br>
+             </p>
+             <p>
+                Kita akan melihat hasilnya seperti ini
+             </p>
+             <video width="320" height="240">
+                <source src="https://bit.ly/3j6rPni" />
+            </video>
+            <p>
+                Lho tapi kok videonya tidak jalan? Dan tidak ada tombol play pula.
+            </p>
+            <h2>Autoplay</h2>
+            <p>
+                Untuk memulai videonya secara otomatis. Kita bisa tambahkan attribute  <i>autoplay</i>  di dalam element < video >-nya seperti ini
+            </p>
+            <p style="color: blue;">
+                < video width="320" height="240" autoplay>< /video >
+            </p>
+            <p>
+                Dengan begitu videonya akan langsung dimulai sesaat setelah halaman web kita ditampilkan di browser.
+            </p>
+
+            <!-- Autoplay -->
+            <!-- <video width="320" height="240" autoplay>
+                <source src="https://bit.ly/3j6rPni" />
+            </video> -->
+
+            <h2>Controls</h2>
+            <h3>Bagaimana dengan tombol play atau pause-nya?</h3>
+            <p>
+                Nah kalau kita ingin menambahkan tombol-tombol media tersebut, kita bisa tambahkan atribut <i>controls</i> seperti ini
+            </p>
+            <p style="color: blue;">
+                < video width="320" height="240" controls >
+            </p>
+            <p>Sekarang ada tombol play, pause, dan fullscreen kan?
+            </p>
+            <video width="320" height="240" controls>
+                <source src="https://bit.ly/3j6rPni" />
+            </video>
+            
+            <h2>Poster</h2>
+            <p>
+                Sebenarnya ada satu lagi attribute yang sering dipakai, yaitu <i>poster.
+                </i>
+            </p>
+            <p>
+                Misalkan ukuran file video yang kita taruh itu besar dan membutuhkan waktu lama untuk di-load. Daripada hanya menampilkan layar hitam, kita bisa menyuruh element < video > untuk menampilkan sebuah gambar.
+            </p>
+            <p>
+                Misalnya kita ingin menampilkan gambar seekor kucing selagi video kita di-load, kita bisa melakukannya seperti di bawah ini
+            </p>
+            <p style="color: blue;">
+                < video width="320" height="240" poster="https://static-assets.skilvul.com/lesson/intro-to-html/cat.jpeg" controls > <br>
+                    < source src="https://bit.ly/2FKluzq" / > <br>
+                  < /video > <br>
+            </p>
+            <p>
+                Sekarang dari ketika videonya di-load sampai kita memulai, akan ditampilkan gambar seekor kucing. Seperti thumbnail video.
+            </p>
+            <video width="320" height="240" poster="https://static-assets.skilvul.com/lesson/intro-to-html/cat.jpeg" controls>
+                <source src="https://bit.ly/3j6rPni"/>
+              </video>
+            
+            <h2>Fallback Video Format</h2>
+            <p>
+                Oh iya, seperti yang kita bahas di awal, kan ada beberapa format video yang didukung oleh HTML5. Masalahnya tidak semua browser mendukung format video yang sama:
+            </p>
+            <p>
+                <ul>
+                    <li>
+                        ada yang hanya mendukung mp4 seperti Internet Explorer dan Safari,
+                    </li>
+                    <li>
+                        ada juga yang mendukung semua format seperti Chrome dan Mozilla.
+                    </li>
+                </ul>
+            </p>
+            <h3>Bagaimana mengatasi masalah ini?</h3>
+            <p>Kita bisa tambahkan beberapa element < source > di dalam < video > seperti ini</p>
+            <p style="color: blue;">
+                < video width="800" height="600" > <br>
+                    < source src="link-ke-videonya" type="video/mp4" / > <br>
+                    < source src="link-ke-videonya" type="video/ogg" / > <br>
+                    < source src="link-ke-videonya" type="video/webm" / > <br>
+                < /video >
+            </p>
+            <p>
+                Dengan begitu, andaikata browsernya tidak mendukung format mp4, dia akan beralih mencoba yang ada di bawahnya: yaitu ogg dan webm.
+            </p>
+
+        <h1>Pertemuan Ke-15</h1>
+            <h2>Suara</h2>
+            <p>
+                Mirip dengan video, HTML5 juga mendukung adanya element yang berisi suara/audio. Untuk menampilkan suara pada halaman sebuah website bisa menggunakan tag < audio >. Format yang didukung pun meliputi mp3, wav, dan ogg.
+            </p>
+            <p>
+                Syntax penulisannya juga ada dua seperti dengan tag < video >:
+            </p>
+            <p style="color: blue;">
+                < audio controls src="link-ke-file-audio" >< /audio >
+            </p>
+            <p>
+                Atau menggunakan tag < source > yang diapit tag < audio >
+            </p>
+            <p style="color: blue;">
+                < audio controls > <br>
+                    < source src="link-ke-file-audio" type="audio/tipe-audionya" / > <br>
+                < /audio > <br>
+            </p>
+            <p>Hasilnya</p>
+            <audio src="http://srm.net/mp3/srm_buss_ii.mp3" controls ></audio>
+            <h2>Fallback Audio Format</h2>
+            <p>Contoh penggunaannya bisa seperti ini:</p>
+            <p style="color: blue;">
+                < audio controls > <br>
+                    < source src="cat_meow.ogg" type="audio/ogg" / > <br>
+                    < source src="cat_meow.mp3" type="audio/mp3" / > <br>
+                    < source src="cat_meow.wav" type="audio/wav" / >
+                    <br>
+                    Your browser does not support the audio element. <br>
+                  < /audio >
+            </p>
+            <h3>Lho itu kenapa ada banyak element <i>< source >-nya?</i> </h3>
+            <p>
+                Dengan adanya beberapa < source > dengan type yang berbeda-beda, apabila sebuah browser tidak mendukung file audio yang kita berikan, dia akan secara otomatis membaca file yang berikutnya. Jadi jika kita ingin semua fitur website kita bisa diakses semua orang, sebaiknya kita memberi beberapa jenis file audio; jaga-jaga apabila file audionya tidak didukung.
+            </p>
+            <h2>Controls</h2>
+            <p>
+                Kalau kalian coba kode yang tadi, kalian bisa lihat ada tombol medianya seperti play, pause, dan timeline audionya. Itu karena kita memberikan attribute controls ke dalam element < audio >-nya.
+            </p>
+            <h2>Loop</h2>
+            <p>
+                Jika kita memberikan attribute loop di dalam element < audio > kita, suara yang dimainkan akan terus mengulang tiap kali selesai. Mungkin ini cocok untuk background music yang memang terus dimainkan tanpa henti selama pengguna terus berada di halaman web tersebut.
+            </p>
+            <h2>Autoplay</h2>
+            <p>
+                Dengan attribute autoplay, suara akan langsung dimainkan sesaat setelah halaman web selesai di-load. Seperti yang barusan kita bahas, mungkin attribute ini cocok untuk background music pada sebuah website yang tidak perlu dimainkan secara manual oleh pengguna.
+            </p>
+        <h1>Pertemuan Ke-16</h1>
+            <h2>Halaman Website Lainnya</h2>
+            <p>
+                Kita juga bisa menampilkan halaman website lainnya di halaman website yang kita buat dengan menggunakan tag < iframe >.
+            </p>
+            <p>
+                Contoh penggunaannya adalah seperti ini:
+            </p>
+            <p style="color: blue;">
+                < iframe >< /iframe >
+            </p>
+            
+            <h2>Width dan Height</h2>
+            <p>
+                Jadi halaman html yang lain itu akan diperlakukan sebagai sebuah element dalam struktur file HTML kita: bisa diatur tinggi-lebarnya juga dengan menambahkan attribute width dan height seperti ini:
+            </p>
+            <p style="color: blue;">
+                < iframe width="lebar iframe" height="tinggi iframe" >< /iframe >
+            </p>
+            <h2>Sumber Konten HTML</h2>
+            <p>
+                < iframe > itu kan isinya konten HTML, kita bisa menambahkan attribute src untuk memberitahu konten apa yang harus ditampilkan.
+            </p>
+
+        </body>
+</html>
