@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+
+<body>
+    <h1>Formulir Isian</h1>
+    <form action="127.0.0.1:5500/HTML/table.html" method="post">
+        <div>
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" placeholder="Masukan Nama Lengkap" id="nama">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Masukan Email" id="email">
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Masukan Password" id="password">
+        </div>
+        <div>
+            <label for="angka">Angka</label>
+            <input type="number" placeholder="Masukan Angka" id="angka">
+        </div>
+
+        <div>
+            <label for="color">Warna</label>
+            <input type="color" id="color">
+        </div>
+        <button type="submit">Kirim</button>
+    </form>
+
+    <hr>
+    <h1>Formulir Tervalidasi</h1>
+    <table>
+        <form action="/daftar" method="post">
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>:</td>
+                <td><input type="text" placeholder="Masukan Nama Lengkap" name="name" required></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="email" placeholder="Masukan Email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td><input type="password" placeholder="Masukan Password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td><input type="date" name="date" required></td>
+            </tr>
+
+            <tr>
+                <td><button>Kirim</button></td>
+            </tr>
+        </form>
+    </table>
+    <hr>
+
+    <table>
+        <form action="/order" method="get">
+            <thead>
+                <tr>
+
+                    <td>
+                        <select name="nomor_meja" id="">
+                            <option value="0" selected>Pilih Meja</option>
+                            <option value="1">Meja 1</option>
+                            <option value="2">Meja 2</option>
+                            <option value="3">Meja 3</option>
+                            <option value="4">Meja 4</option>
+                            <option value="5">Meja 5</option>
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th><label for="menu_makanan">Menu Makanan</label></th>
+                    <th>-</th>
+                    <th><label for="menu_minuman">Menu Minuman</label></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" value="Nasi Goreng" id="menu_makanan" name="menu">Nasi Goreng</td>
+                    <td></td>
+                    <td><input type="checkbox" value="Es Teh" id="menu_minuman" name="menu">Es Teh</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="level_pedas_nasi_goreng"><i>Level Pedas</i></label>
+                        <input type="radio" value="1" id="level_pedas_nasi_goreng" name="level_pedas_nasi_goreng"
+                            checked>Original
+                        <input type="radio" value="2" id="level_pedas_nasi_goreng" name="level_pedas_nasi_goreng">1
+                        <input type="radio" value="3" id="level_pedas_nasi_goreng" name="level_pedas_nasi_goreng">2
+                        <input type="radio" value="4" id="level_pedas_nasi_goreng" name="level_pedas_nasi_goreng">3
+                    </td>
+                    <td></td>
+                    <td><input type="checkbox" value="Es Jeruk" id="menu_minuman" name="menu">Es Jeruk</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" value="Mie Goreng" id="menu_makanan" name="menu">Mie Goreng</td>
+                    <td></td>
+                    <td><input type="checkbox" value="Es Kopi" id="menu_minuman" name="menu">Es Kopi</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="level_pedas_mie_goreng"><i>Level Pedas</i></label>
+                        <input type="radio" value="1" id="level_pedas_mie_goreng" name="level_pedas_mie_goreng"
+                            checked>Original
+                        <input type="radio" value="2" id="level_pedas_mie_goreng" name="level_pedas_mie_goreng">1
+                        <input type="radio" value="3" id="level_pedas_mie_goreng" name="level_pedas_mie_goreng">2
+                        <input type="radio" value="4" id="level_pedas_mie_goreng" name="level_pedas_mie_goreng">3
+                    </td>
+                    <td></td>
+                    <td><input type="checkbox" value="Es Coklak" id="menu_minuman" name="menu">Es Coklat</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" value="Nasi Kuning" id="menu_makanan" name="menu">Nasi Kuning</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" value="Nasi Uduk" id="menu_makanan" name="menu">Nasi Uduk</td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <p><label for="catatan">Catatan :</label></p>
+                        <textarea name="catatan" id="catatan" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="term">Setuju Untuk Membuat Pesanan?</label>
+                        <input type="checkbox" name="term" id="term" value="iya">
+                    </td>
+                </tr>
+                <tr colspan="3">
+                    <td></td>
+                    <td><button>Pesan</button></td>
+                </tr>
+        </form>
+    </table>
+</body>
+</html>
