@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+    background-color: #F0FFFF
+}
+
+a {
+    color: blue;
+    font-size: small;
+}
+
+button {
+    color: darkviolet;
+    background-color: tan;
+    font-size: small;
+    font-family:'Times New Roman';
+}
+p {
+    color: white;
+    background-color: #B0C4DE;
+    font-size: small; 
+}
